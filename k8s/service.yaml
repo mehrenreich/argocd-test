@@ -4,7 +4,7 @@ metadata:
   name: argocd-test
 spec:
   selector:
-    app.kubernetes.io/name: argocd-test
+    name: argocd-test
   ports:
     - protocol: TCP
       port: 9999
