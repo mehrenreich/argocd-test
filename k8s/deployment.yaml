@@ -15,6 +15,5 @@ spec:
         app: argocd-test
     spec:
       containers:
-      - name: argocd-test
-        image: mehrenre/argocd-test:1.0.0
-
+        - name: argocd-test
+          image: mehrenre/argocd-test:1.0.0
