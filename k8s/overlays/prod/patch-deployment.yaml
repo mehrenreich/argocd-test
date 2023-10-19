@@ -1,3 +1,3 @@
 - op: replace
   path: /spec/template/spec/containers/0/image
-  value: mehrenre/argocd-test:1.0.0
+  value: mehrenre/argocd-test:2.0.0
