@@ -5,5 +5,5 @@ TAG="${1:-latest}"
 
 cd app
 
-docker build -t $NAME:$TAG -t latest .
+docker build -t $NAME:$TAG -t $NAME:latest .
 docker push $NAME:$TAG
