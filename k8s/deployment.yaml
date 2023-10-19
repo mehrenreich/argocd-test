@@ -3,12 +3,12 @@ kind: Deployment
 metadata:
   name: argocd-test
   labels:
-    app: argocd-test
+    app.kubernetes.io/name: argocd-test
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: argocd-test
+      app.kubernetes.io/name: argocd-test
   template:
     metadata:
       labels:
