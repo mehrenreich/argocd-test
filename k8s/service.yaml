@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: argocd-test
+  name: argocd-test-service
 spec:
   selector:
-    name: argocd-test
+    app: argocd-test
   ports:
     - protocol: TCP
       port: 9999

@@ -1,18 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: argocd-test
-  labels:
-    name: argocd-test
+  name: argocd-test-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      name: argocd-test
+      app: argocd-test
   template:
     metadata:
       labels:
-        name: argocd-test
+        app: argocd-test
     spec:
       containers:
         - name: argocd-test
