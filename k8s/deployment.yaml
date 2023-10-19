@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: argocd-test
+        name: argocd-test
     spec:
       containers:
         - name: argocd-test
