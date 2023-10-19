@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NAME="mehrenre/argocd-test"
-TAG="1.0.0"
+TAG="${1:-latest}"
 
 cd app
 
